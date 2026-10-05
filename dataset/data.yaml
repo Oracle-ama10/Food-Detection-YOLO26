@@ -1,0 +1,6 @@
+path: C:\Users\LENOVO\Downloads\Mini project Food bro\Food-Detection-YOLO26\dataset
+train: images/train
+val: images/val
+
+nc: 3
+names: ['HOIJOR', 'MEATBALL', 'SAUSAGE']

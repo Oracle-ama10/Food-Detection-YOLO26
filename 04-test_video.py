@@ -4,7 +4,7 @@ from ultralytics import YOLO
 model = YOLO("best.pt")
 
 # กำหนดชื่อไฟล์วิดีโอที่ต้องการนำมาทดสอบ
-video_to_test = "FILE_NAME"
+video_to_test = "video_test.mp4"
 
 # นำโมเดลไปทดสอบกับวิดีโอ
 results = model.predict(

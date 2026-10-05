@@ -7,8 +7,8 @@ from urllib.parse import unquote, urlparse
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-IMAGES_DIR = Path(r"D:\RMUT\data\images")
-OUTPUT_DIR = Path(r"D:\RMUT\dataset")
+IMAGES_DIR = Path(r"C:\Users\LENOVO\Downloads\Mini project Food bro\Food-Detection-YOLO26\frame\images")
+OUTPUT_DIR = Path(r"C:\Users\LENOVO\Downloads\Mini project Food bro\Food-Detection-YOLO26\dataset")
 TRAIN_SPLIT = 0.8
 SEED = 42
 

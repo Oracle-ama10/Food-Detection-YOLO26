@@ -30,7 +30,8 @@ def main():
             results = model.predict(
                 source=frame,
                 stream=True,    # ประมวลผลแบบต่อเนื่อง เหมาะสำหรับวิดีโอหรือ Real-time
-                device='cpu'    # ใช้ CPU ในการประมวลผล
+                device=0,
+                conf=0.5    # ใช้ CPU ในการประมวลผล
             )
 
             # วนลูปเพื่อรับผลลัพธ์จากโมเดล

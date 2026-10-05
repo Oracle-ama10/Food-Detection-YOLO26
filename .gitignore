@@ -3,4 +3,5 @@ frame/
 *.mp4
 *.MOV
 runs/
+weights/
 __pycache__/
