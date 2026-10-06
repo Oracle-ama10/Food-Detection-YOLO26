@@ -5,8 +5,8 @@ model = YOLO("best.pt")
 
 # นำโมเดลไปทดสอบกับรูปภาพ
 results = model.predict(
-    "test/test_01.jpg",    # ชื่อไฟล์รูปภาพที่ต้องการทดสอบ เช่น "coffee.jpg"
-    conf=0.5,       # กำหนดค่า Confidence ขั้นต่ำที่ 50%
+    "test/test_07.jpg",    # ชื่อไฟล์รูปภาพที่ต้องการทดสอบ เช่น "coffee.jpg"
+    conf=0.2,       # กำหนดค่า Confidence ขั้นต่ำที่ 50%
     save=True       # บันทึกภาพผลลัพธ์ที่ตรวจจับได้
 )
 
